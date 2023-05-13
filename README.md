@@ -10,7 +10,7 @@ The primary objective of this project is to develop a CNN-based flame detection 
 
 The project utilizes a camera and computer to analyze the camera's output. The MobileNet CNN architecture was chosen as the base model due to its lightweight and efficient design, making it suitable for deployment in resource-constrained environments. The MobileNet architecture was modified and trained on a dataset consisting of 3GB of fire and non-fire images extracted from real-time footage. Transfer learning techniques were employed to leverage the pre-trained model's features and fine-tune them to the specific dataset.
 
-The implementation was done in Python using the Keras deep learning library. The model was trained on a NVIDIA GeForce GTX 1080 Ti GPU, achieving an overall accuracy of 99.3%. The flame detection process takes approximately 5-10 seconds per frame.
+The implementation was done in Python using the Keras deep learning library. The model was trained on a Kaggle CPU, achieving an overall accuracy of 99.3%. The flame detection process takes approximately 5-10 seconds per frame.
 
 ## Results
 
